@@ -1,0 +1,29 @@
+### Obtaining User
+GET http://localhost:3000/user
+
+### Obtaining a single User
+GET http://localhost:3000/user/4
+
+### Creating USer
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+    "name": "Carlos Lopez",
+    "country": "España"
+}
+
+### Deleting a user
+DELETE http://localhost:3000/user/4
+
+### Updating a user
+PUT http://localhost:3000/user/3
+Content-Type: application/json
+
+{
+    "name": "Jose Suarez",
+    "country": "China"
+}
+
+    
+
